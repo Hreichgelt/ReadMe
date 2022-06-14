@@ -12,18 +12,9 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
     return `# ${data.title}
-    <img src="https://shields.io/badge/license-${data.license}-${color}" alt="Badge-${data.license}" height="44"/>
+    <img src="https://shields.io/badge/license-${data.license}-${color}" alt="Badge-${data.license}" height="44"/> \n
 
-
-// const generateLicense = (type) => {
-//     let color;
-//     if (type === "MPL") color = "red";
-//     if (type === "GPL") color = "green";
-//     if (type === "Apache") color = "purple";
-//     if (type === "MIT") color = "orange";
-//     if (type === "CC") color = "blue";
-//     if (type === "BSD") color = "goldenrod";
-
+    
 ## Table of Contents
     1.[Title](#Title)
     2.[Live](#Live)
@@ -61,3 +52,20 @@ ${data.Resources}
 
 `;
 }
+
+
+module.exports = generateMarkdown;
+
+
+
+
+
+
+// const generateLicense = (type) => {
+//     let color;
+//     if (type === "MPL") color = "red";
+//     if (type === "GPL") color = "green";
+//     if (type === "Apache") color = "purple";
+//     if (type === "MIT") color = "orange";
+//     if (type === "CC") color = "blue";
+//     if (type === "BSD") color = "goldenrod";
