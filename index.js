@@ -7,49 +7,49 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const questions = [
     {
         type: 'input',
-        name: 'Title',
+        name: 'title',
         message: 'What is your projects name?',
     },
     {
         type: 'input',
-        name: 'Live',
+        name: 'live',
         message: 'please include your live site here',
     },
-    {
-        type: 'checkbox',
-        message: 'What items would you like included in the table of contents?',
-        name: 'TOC',
-        choices: ['Description', 'Usage', 'Visuals', 'Authors', 'Resources', "Questions", "Licenses"],
-    },
+    // {
+    //     type: 'checkbox',
+    //     message: 'What items would you like included in the table of contents?',
+    //     name: 'TOC',
+    //     choices: ['Description', 'Usage', 'Visuals', 'Authors', 'Resources', "Questions", "Licenses"],
+    // },
     {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'please include your description of the site here',
     },
     {
         type: 'input',
-        name: 'Usage',
+        name: 'usage',
         message: 'please include your explaination on how to use the site here',
     },
     {
         type: 'input',
-        name: 'Visuals',
+        name: 'visuals',
         message: 'please include your demo or visuals here',
     },
     {
         type: 'input',
-        name: 'Contributors',
+        name: 'contributors',
         message: 'please include authors and contributors here',
     },
     {
         type: 'input',
-        name: 'Resources',
+        name: 'resources',
         message: 'please include your live site and repository links here',
     },
     {
         type: 'rawlist',
         message: 'what License was this created with?',
-        name: 'Licenses',
+        name: 'licenses',
         choices: [
             "MPL",
             "GPL",
@@ -57,6 +57,7 @@ const questions = [
             "MIT",
             "CC",
             "BSD",
+            "None",
         ]
     },
 ]
