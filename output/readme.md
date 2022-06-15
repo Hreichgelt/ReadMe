@@ -1,4 +1,4 @@
-# a
+# ReadMe Generator
 <img src="https://shields.io/badge/license-Apache-goldenrod" alt="Badge-Apache"/> 
 
   
@@ -15,25 +15,25 @@
 
 
 
-## a
+## ReadMe Generator
 
 ## Live
-d
+link
     
 ## Description
-s
+Generate a professional readme.md with this program. 
     
 ## Usage
-g
+install the program, open the terminal, navigate to the appropriate file directory, run node index.js. The user will be prompted with questions about what they want in their readme, after they finish the prompts the program will create a professional readme for their project. 
     
 ## Visuals
-s
+demo demo
     
 ## Contributors
-s 
+HTR 
     
 ## Resources
-d
+Links
     
 ## Licenses
 this is licensed with Apache
