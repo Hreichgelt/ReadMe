@@ -1,7 +1,8 @@
 # readme generator
 <img src="https://shields.io/badge/license-Apache-goldenrod" alt="Badge-Apache"/> 
 
-  
+Quickly generate a readme.md file for all of your projects
+
     
 ## Table of Contents
 1. [Title](#title)
